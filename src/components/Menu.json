@@ -1,0 +1,111 @@
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Margherita Royale",
+        "description": "Fresh basil, premium mozzarella, San Marzano tomatoes",
+        "price": 18.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 2,
+        "name": "Truffle Delight",
+        "description": "Black truffle, wild mushrooms, fontina cheese",
+        "price": 24.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 3,
+        "name": "Prosciutto & Arugula",
+        "description": "Parma ham, fresh arugula, shaved parmesan",
+        "price": 22.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 4,
+        "name": "Mediterranean Dream",
+        "description": "Kalamata olives, feta, sun-dried tomatoes",
+        "price": 20.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 5,
+        "name": "Quattro Formaggi",
+        "description": "Blend of four premium Italian cheeses",
+        "price": 21.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 6,
+        "name": "Spicy Diavola",
+        "description": "Spicy salami, chili flakes, bell peppers",
+        "price": 19.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 7,
+        "name": "Seafood Supreme",
+        "description": "Fresh shrimp, calamari, mussels, garlic",
+        "price": 26.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 8,
+        "name": "Vegetarian Garden",
+        "description": "Grilled vegetables, pesto, pine nuts",
+        "price": 19.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 9,
+        "name": "Buffalo Bliss",
+        "description": "Buffalo mozzarella, cherry tomatoes, basil",
+        "price": 23.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 10,
+        "name": "Calabrese Special",
+        "description": "Nduja, red onions, calabrian chilies",
+        "price": 22.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 11,
+        "name": "Funghi Porcini",
+        "description": "Porcini mushrooms, thyme, truffle oil",
+        "price": 24.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 12,
+        "name": "Capricciosa Elite",
+        "description": "Ham, mushrooms, artichokes, olives",
+        "price": 21.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 13,
+        "name": "Rustica",
+        "description": "Italian sausage, roasted peppers, onions",
+        "price": 20.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 14,
+        "name": "Tartufata",
+        "description": "Black truffle paste, mushrooms, prosciutto",
+        "price": 27.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      },
+      {
+        "id": 15,
+        "name": "Napoli Supreme",
+        "description": "Anchovies, capers, black olives, oregano",
+        "price": 19.99,
+        "image": "/placeholder.svg?height=400&width=400"
+      }
+    ]
+  }
+  
+  

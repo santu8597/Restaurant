@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <a href="/" className="mr-6 flex items-center space-x-2">
-            <span className="text-lg font-bold text-amber-500">AURUM</span>
+            <span className="text-lg font-bold text-amber-500">IgnisDine House</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {navigation.map((item) => (

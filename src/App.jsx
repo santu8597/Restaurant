@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Home'
 import Hero from './components/Hero'
+import Marquee from './components/Marquee'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Marquee/>
       </main>
     </div>
   )
