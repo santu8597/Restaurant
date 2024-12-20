@@ -1,111 +1,110 @@
-{
-    "pizzas": [
+ [
       {
         "id": 1,
         "name": "Margherita Royale",
         "description": "Fresh basil, premium mozzarella, San Marzano tomatoes",
         "price": 18.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://media.istockphoto.com/id/1404892450/photo/pizza-margherita.jpg?s=612x612&w=0&k=20&c=ZwQ_C6aTds-G7K_9bdLAwe0sZqrz66-pF-eQmHQJ-6c="
       },
       {
         "id": 2,
         "name": "Truffle Delight",
         "description": "Black truffle, wild mushrooms, fontina cheese",
         "price": 24.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://media.istockphoto.com/id/1350259421/photo/freshly-baked-neapolitan-pizza-with-cheese-and-mushrooms.jpg?s=612x612&w=0&k=20&c=nPJ4CppNVaxg0WlJ-TjcOdn8goM26rF4GHak2AKj8R4="
       },
       {
         "id": 3,
-        "name": "Prosciutto & Arugula",
-        "description": "Parma ham, fresh arugula, shaved parmesan",
+        "name": "Chicken Keema Pizza",
+        "description": "Pizza base, fresh keema, shaved parmesan",
         "price": 22.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://cdn.uengage.io/uploads/4580/image-755133-1726826193.jpeg"
       },
       {
         "id": 4,
-        "name": "Mediterranean Dream",
-        "description": "Kalamata olives, feta, sun-dried tomatoes",
+        "name": "Chicken Tikka Pizza",
+        "description": "Chicken pieces with onions, tomatoes",
         "price": 20.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://onestophalal.com/cdn/shop/articles/tikka_masala_pizza-1694014914105_1200x.jpg?v=1694568363"
       },
       {
         "id": 5,
-        "name": "Quattro Formaggi",
+        "name": "Chicken Spicy Pizza",
         "description": "Blend of four premium Italian cheeses",
         "price": 21.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://thebakeoneclub.co.uk/wp-content/uploads/2023/02/Spicy_Chicken_Pizza.jpg"
       },
       {
         "id": 6,
-        "name": "Spicy Diavola",
+        "name": "Veg Delight Pizza",
         "description": "Spicy salami, chili flakes, bell peppers",
         "price": 19.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://cdn.shopify.com/s/files/1/0173/8181/8422/files/20240625161049-recipeimage7_pizzagriddle_veggievegandelight.jpg?v=1719331851&width=600&height=900"
       },
       {
         "id": 7,
-        "name": "Seafood Supreme",
+        "name": "Veg Supreme",
         "description": "Fresh shrimp, calamari, mussels, garlic",
         "price": 26.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.bc8dd369182b636ff171077efa53c344.1.jpg"
       },
       {
         "id": 8,
         "name": "Vegetarian Garden",
         "description": "Grilled vegetables, pesto, pine nuts",
         "price": 19.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5QQ5GEDBVspdwhJvwRR5ufOgzJ7ej9xqGQ&s"
       },
       {
         "id": 9,
-        "name": "Buffalo Bliss",
-        "description": "Buffalo mozzarella, cherry tomatoes, basil",
+        "name": "Corn Bliss",
+        "description": "Mozzarella, Fresh Corns, Basil",
         "price": 23.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://bakesquare.in/wp-content/uploads/2023/04/5qgpBjIyHm4XLzDk1OHleamgDNKt6nbSm-nv73i4k7eDDyq5mh5DV0awva1cF6ptuA5lVCB96VnjN93xLE06qfEebGwnPHwKwpNh.jpg"
       },
       {
         "id": 10,
-        "name": "Calabrese Special",
+        "name": "Festive Special",
         "description": "Nduja, red onions, calabrian chilies",
         "price": 22.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://lirp.cdn-website.com/ebdb0b272fe945b782417fab0cfc69bd/dms3rep/multi/opt/GettyImages-621262794-1920w.jpg"
       },
       {
         "id": 11,
-        "name": "Funghi Porcini",
+        "name": "Tofu Vegan",
         "description": "Porcini mushrooms, thyme, truffle oil",
         "price": 24.99,
         "image": "/placeholder.svg?height=400&width=400"
       },
       {
         "id": 12,
-        "name": "Capricciosa Elite",
+        "name": "Elite Mushroom",
         "description": "Ham, mushrooms, artichokes, olives",
         "price": 21.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://cakentake.in/wp-content/uploads/2024/03/Classic-Mushroom-Pizza-1.png"
       },
       {
         "id": 13,
-        "name": "Rustica",
+        "name": "Paneer Corn",
         "description": "Italian sausage, roasted peppers, onions",
         "price": 20.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbdW7JuwL09U09RZzWWysUYcr1b0DFo59NMw&s"
       },
       {
         "id": 14,
-        "name": "Tartufata",
+        "name": "Capsicum Delight",
         "description": "Black truffle paste, mushrooms, prosciutto",
         "price": 27.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://static.toiimg.com/thumb/54699659.cms?imgsize=2071173&width=800&height=800"
       },
       {
         "id": 15,
-        "name": "Napoli Supreme",
-        "description": "Anchovies, capers, black olives, oregano",
+        "name": "Chicken Margherita",
+        "description": "Chicken spread with margherita base",
         "price": 19.99,
-        "image": "/placeholder.svg?height=400&width=400"
+        "image": "https://5.imimg.com/data5/FS/WU/MY-3519571/chicken-margherita-m10-500x500.png"
       }
     ]
-  }
+  
   
   

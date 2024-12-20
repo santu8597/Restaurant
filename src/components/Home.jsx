@@ -32,7 +32,7 @@ export default function Header() {
         </div>
         <div className="flex flex-1 items-center justify-between md:justify-end">
           <a href="/" className="md:hidden">
-            <span className="text-lg font-bold text-amber-500">AURUM</span>
+            <span className="text-lg font-bold text-amber-500">IgnisDine House</span>
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
