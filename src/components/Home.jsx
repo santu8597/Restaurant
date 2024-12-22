@@ -5,7 +5,8 @@ const navigation = [
   { name: "Menu", href: "#" },
   { name: "Reservations", href: "#" },
   { name: "About", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Contact", href: "/Contact.jsx" },
+  { name: "Sign In / Sign Up", href: "/auth" },
 ]
 
 export default function Header() {
