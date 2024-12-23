@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 import SignUpForm from './components/Signup'
 import SignInForm from './components/Signin'
 import ReservationForm from './components/Reservation'
-
+import AuthPage from './auth/page'
 function App() {
   return (
     <div className="relative flex min-h-screen flex-col">
@@ -23,7 +23,7 @@ function App() {
         <Contact/>
         <SignInForm/>
         <SignUpForm/>
-        
+        <AuthPage/>
       </main>
     </div>
   )
