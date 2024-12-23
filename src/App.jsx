@@ -8,6 +8,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import SignUpForm from './components/Signup'
 import SignInForm from './components/Signin'
+import ReservationForm from './components/Reservation'
+
 function App() {
   return (
     <div className="relative flex min-h-screen flex-col">
@@ -16,10 +18,11 @@ function App() {
         <Hero />
         <Marquee/>
         <Page/>
+        <ReservationForm/>
         <About/>
         <Contact/>
-        <SignUpForm/>
         <SignInForm/>
+        <SignUpForm/>
         
       </main>
     </div>
