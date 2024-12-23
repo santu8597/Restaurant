@@ -6,125 +6,103 @@ export default function AuthPage() {
   const [activeTab, setActiveTab] = useState("signin");
 
   return (
-    <div className="flex flex-col min-h-screen bg-black text-amber-500">
-      <SiteHeader />
-      <main className="flex-grow flex items-center justify-center p-4">
-        <div className="w-full max-w-md">
-          <div className="flex mb-8">
+    <main className="flex-grow flex items-center justify-center p-4">
+        <div className="w-full max-w-md bg-gray-900 p-6 rounded-lg shadow-lg">
+          <div className="flex mb-4">
             <button
-              className={`flex-1 p-4 text-lg font-semibold ${
-                activeTab === "signin"
-                  ? "text-amber-500 border-b-2 border-amber-500"
-                  : "text-amber-500/60"
-              }`}
-              onClick={() => setActiveTab("signin")}
-            >
-              Sign In
-            </button>
-            <button
-              className={`flex-1 p-4 text-lg font-semibold ${
-                activeTab === "signup"
-                  ? "text-amber-500 border-b-2 border-amber-500"
-                  : "text-amber-500/60"
-              }`}
-              onClick={() => setActiveTab("signup")}
+              className={`flex-1 py-2 ${activeTab === 'signup' ? 'text-orange-500 border-b-2 border-orange-500' : 'text-gray-400'}`}
+              onClick={() => setActiveTab('signup')}
             >
               Sign Up
             </button>
+            <button
+              className={`flex-1 py-2 ${activeTab === 'signin' ? 'text-orange-500 border-b-2 border-orange-500' : 'text-gray-400'}`}
+              onClick={() => setActiveTab('signin')}
+            >
+              Sign In
+            </button>
           </div>
 
-          <motion.div
-            key={activeTab}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
-          >
-            {activeTab === "signin" ? <SignInForm /> : <SignUpForm />}
-          </motion.div>
+          {activeTab === 'signup' ? (
+            <form className="space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-300">First name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                    placeholder="John"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-300">Last name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                    placeholder="Doe"
+                  />
+                </div>
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-300">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                  placeholder="john@example.com"
+                />
+              </div>
+              <div>
+                <label htmlFor="password" className="block text-sm font-medium text-gray-300">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+              >
+                Sign Up
+              </button>
+            </form>
+          ) : (
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="signinEmail" className="block text-sm font-medium text-gray-300">Email</label>
+                <input
+                  type="email"
+                  id="signinEmail"
+                  name="email"
+                  className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                  placeholder="john@example.com"
+                />
+              </div>
+              <div>
+                <label htmlFor="signinPassword" className="block text-sm font-medium text-gray-300">Password</label>
+                <input
+                  type="password"
+                  id="signinPassword"
+                  name="password"
+                  className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 py-2 px-2"
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+              >
+                Sign In
+              </button>
+            </form>
+          )}
         </div>
       </main>
-    </div>
-  );
-}
-
-function SignInForm() {
-  return (
-    <form className="space-y-4">
-      <div className="space-y-2">
-        <Label htmlFor="email" className="text-amber-500">
-          Email
-        </Label>
-        <Input
-          id="email"
-          type="email"
-          placeholder="Enter your email"
-          className="bg-black border-amber-500 text-amber-500 placeholder-amber-500/50"
-        />
-      </div>
-      <div className="space-y-2">
-        <Label htmlFor="password" className="text-amber-500">
-          Password
-        </Label>
-        <Input
-          id="password"
-          type="password"
-          placeholder="Enter your password"
-          className="bg-black border-amber-500 text-amber-500 placeholder-amber-500/50"
-        />
-      </div>
-      <Button
-        type="submit"
-        className="w-full bg-amber-500 text-black hover:bg-amber-600"
-      >
-        Sign In
-      </Button>
-    </form>
-  );
-}
-
-function SignUpForm() {
-  return (
-    <form className="space-y-4">
-      <div className="space-y-2">
-        <Label htmlFor="name" className="text-amber-500">
-          Name
-        </Label>
-        <Input
-          id="name"
-          type="text"
-          placeholder="Enter your name"
-          className="bg-black border-amber-500 text-amber-500 placeholder-amber-500/50"
-        />
-      </div>
-      <div className="space-y-2">
-        <Label htmlFor="email" className="text-amber-500">
-          Email
-        </Label>
-        <Input
-          id="email"
-          type="email"
-          placeholder="Enter your email"
-          className="bg-black border-amber-500 text-amber-500 placeholder-amber-500/50"
-        />
-      </div>
-      <div className="space-y-2">
-        <Label htmlFor="password" className="text-amber-500">
-          Password
-        </Label>
-        <Input
-          id="password"
-          type="password"
-          placeholder="Create a password"
-          className="bg-black border-amber-500 text-amber-500 placeholder-amber-500/50"
-        />
-      </div>
-      <Button
-        type="submit"
-        className="w-full bg-amber-500 text-black hover:bg-amber-600"
-      >
-        Sign Up
-      </Button>
-    </form>
   );
 }

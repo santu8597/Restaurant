@@ -21,8 +21,7 @@ function App() {
         <ReservationForm/>
         <About/>
         <Contact/>
-        <SignInForm/>
-        <SignUpForm/>
+       
         <AuthPage/>
       </main>
     </div>
